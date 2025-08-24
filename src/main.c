@@ -10,6 +10,11 @@
 int main(int argc, const char* argv[]){
     Chunk chunk;
     chunk_init(&chunk);
+
+    int constant = chunk_add_num(&chunk, 3.14);
+    chunk_write(&chunk, OP_CONSTANT);
+    chunk_write(&chunk, constant);
+    
     chunk_write(&chunk, OP_RETURN);
 
     #ifndef NDEBUG

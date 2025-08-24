@@ -3,8 +3,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Wshadow -Wformat=2
 
 # Sources
-RLS_SRCS = src/main.c src/chunk.c
-DBG_SRCS = src/main.c src/chunk.c src/dbg_utils.c
+RLS_SRCS = src/main.c src/chunk.c src/value_array.c
+DBG_SRCS = src/main.c src/chunk.c src/dbg_utils.c src/value_array.c
 
 # Object files
 DBG_OBJS = $(DBG_SRCS:src/%.c=build/dbg/%.o)
