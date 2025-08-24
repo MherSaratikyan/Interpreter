@@ -1,5 +1,5 @@
-#ifndef CLOX_CHUNK_HPP
-#define CLOX_CHUNK_HPP
+#ifndef CLOX_CHUNK_H
+#define CLOX_CHUNK_H
 
 #include "./common.h"
 

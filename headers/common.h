@@ -1,5 +1,5 @@
-#ifndef CLOX_COMMON_HPP
-#define CLOX_COMMON_HPP
+#ifndef CLOX_COMMON_H
+#define CLOX_COMMON_H
 
 #include <stddef.h>
 #include <stdint.h>
